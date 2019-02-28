@@ -8,7 +8,7 @@
                 <input type="checkbox" v-model="bookData.finishedReading">
             </label>
             <label for="borrowed">
-                Barrowed
+                Borrowed
                 <input type="radio" value="borrowed" v-model="bookData.ownership">
             </label>
             <label for="bought">
